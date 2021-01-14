@@ -11,30 +11,30 @@ public class SolicitationController {
     public ResponseEntity getAllSolicitations(){
         return ResponseEntity.accepted().build();
     }
-//
-//    @GetMapping
-//    public ResponseEntity getSolicitations(){
-//        return ResponseEntity.accepted().build();
-//    }
-//
-//    @PostMapping
-//    public ResponseEntity insertSolicitations(){
-//        return ResponseEntity.accepted().build();
-//    }
-//
-//    @PutMapping
-//    public ResponseEntity approveSolicitations(){
-//        return ResponseEntity.accepted().build();
-//    }
-//
-//    @DeleteMapping
-//    public ResponseEntity cancelSolicitations(){
-//        return ResponseEntity.accepted().build();
-//    }
-//
-//    @PutMapping
-//    public ResponseEntity getApprovalsSolicitations(){
-//        return ResponseEntity.accepted().build();
-//    }
+ 
+     @GetMapping
+     public ResponseEntity getSolicitations(){
+         return ResponseEntity.accepted().build();
+     }
+ 
+     @PostMapping
+     public ResponseEntity insertSolicitations(){
+         return ResponseEntity.accepted().build();
+     }
+ 
+     @PutMapping
+     public ResponseEntity approveSolicitations(){
+         return ResponseEntity.accepted().build();
+     }
+ 
+     @DeleteMapping
+     public ResponseEntity cancelSolicitations(){
+         return ResponseEntity.accepted().build();
+     }
+ 
+     @PutMapping
+     public ResponseEntity getApprovalsSolicitations(){
+         return ResponseEntity.accepted().build();
+     }
 }
 
