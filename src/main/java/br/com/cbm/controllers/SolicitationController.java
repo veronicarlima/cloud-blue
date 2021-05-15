@@ -12,8 +12,8 @@ public class SolicitationController {
         return ResponseEntity.accepted().build();
     }
  
-     @GetMapping
-     public ResponseEntity getSolicitations(){
+     @GetMapping("/id")
+     public ResponseEntity getIdSolicitations(){
          return ResponseEntity.accepted().build();
      }
  
@@ -21,20 +21,21 @@ public class SolicitationController {
      public ResponseEntity insertSolicitations(){
          return ResponseEntity.accepted().build();
      }
- 
-     @PutMapping
-     public ResponseEntity approveSolicitations(){
+
+     @PostMapping("/id")
+     public ResponseEntity insertDetailSolicitations(){
          return ResponseEntity.accepted().build();
      }
- 
-     @DeleteMapping
-     public ResponseEntity cancelSolicitations(){
-         return ResponseEntity.accepted().build();
-     }
- 
-     @PutMapping
-     public ResponseEntity getApprovalsSolicitations(){
-         return ResponseEntity.accepted().build();
-     }
+
+    @PutMapping("/id")
+    public ResponseEntity approveSolicitations(){
+        return ResponseEntity.accepted().build();
+    }
+
+    @DeleteMapping("/id")
+    public ResponseEntity cancelSolicitations(){
+        return ResponseEntity.accepted().build();
+    }
+
 }
 

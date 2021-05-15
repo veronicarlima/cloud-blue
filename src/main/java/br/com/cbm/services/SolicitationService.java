@@ -15,8 +15,6 @@ public class SolicitationService {
 
     public List<Solicitation> findAll(){
 
-
-
       List<Solicitation> allSolicitations =
              this.solicitationRepository.findAll();
 
